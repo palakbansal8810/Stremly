@@ -37,7 +37,7 @@ class Config:
     CIRCUIT_BREAKER_THRESHOLD: int = 3
     
     # HITL
-    HITL_TIMEOUT: int = 300  # 5 minutes
+    HITL_TIMEOUT: int = 5  
     
     @classmethod
     def from_env(cls) -> 'Config':

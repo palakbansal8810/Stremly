@@ -1,0 +1,21 @@
+Login System Product Specification
+
+Authentication Flow:
+1. User enters username/password
+2. System validates credentials against database
+3. If valid, system prompts for MFA verification
+4. User receives SMS code or uses authenticator app
+5. System validates MFA code
+6. Upon successful validation, user session is established
+
+Current Implementation:
+- Supports password authentication
+- Integrates with Twilio for SMS verification
+- Supports Google Authenticator TOTP codes
+- Session timeout: 24 hours
+- Failed login lockout: 5 attempts
+
+Security Features:
+- Password hashing using bcrypt
+- Rate limiting on login attempts
+- Audit logging for all authentication events
