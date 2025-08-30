@@ -1,0 +1,17 @@
+fastapi==0.115.2
+uvicorn==0.32.0
+websockets==13.1
+sentence-transformers==3.2.0
+faiss-cpu==1.9.0  
+joblib==1.4.2
+numpy==2.1.2
+pytesseract==0.3.13
+pdfminer.six==20231228
+pillow==11.0.0
+langchain-groq==0.2.0
+tenacity==9.0.0
+pybreaker==2.0.0
+pymongo==4.10.1
+redis==5.1.1
+python-dotenv==1.0.1
+pydantic==2.10.0

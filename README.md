@@ -32,7 +32,7 @@ Stremly answers compliance/risk queries by orchestrating parallel AI agents over
    ```sh
    python client.py
    ```
-   - Enter the `session_id` you get from `/ask`.
+   - Enter the `session_id` you get from `/ask`(after 6th step).
 
 6. **Ask a question**
    ```sh
