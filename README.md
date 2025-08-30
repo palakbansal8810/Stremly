@@ -61,13 +61,3 @@ Stremly answers compliance/risk queries by orchestrating parallel AI agents over
 - `python demo_timeout.py` — Simulates HITL timeout
 
 ---
-
-## Notes
-
-- Never commit .env or secrets.
-- All outputs are strict JSON with citations and rationale.
-- HITL prompts appear in the client terminal if clarification or approval is needed.
-
----
-```
-Let me know if you want it even shorter or want to add a usage example!Let me know if you want it even shorter or want to add a usage example!
